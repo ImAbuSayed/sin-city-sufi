@@ -15,7 +15,7 @@
 | **Written On** | May 18, 2026 |
 | **Song Page** | [Open Song Page](https://imabusayed.github.io/sin-city-sufi/) |
 | **License** | [View License](./LICENSE.md) |
-| **Get License** | [Commercial Licensing for Sin City Sufi](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/sin-city-sufi/) |
+| **Get License** | [Secure Licensing Rights for Sin City Sufi](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/sin-city-sufi/) |
 | **Author** | Abu Sayed |
 | **Rights** | All Rights Reserved |
 
@@ -110,7 +110,7 @@ This song is an original creative work by Abu Sayed. All lyrics, melody, and com
 |:-------------------|:------------|
 | **Author** | Abu Sayed |
 | **Version** | `v1` |
-| **SHA-256 Hash** | `N/A` |
+| **SHA-256 Hash** | `b8b00980649925962fe6949483003c9fdb4bab357fd59abfe9e1b95bb5119ef5` |
 | **Timestamp** | May 19, 2026 |
 
 See [LICENSE.md](./LICENSE.md) for full terms and conditions.

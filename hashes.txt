@@ -1,0 +1,10 @@
+# Cryptographic Proof of Authorship Log - Sin City Sufi
+
+This log tracks the cryptographic history and versioning for the song **Sin City Sufi** (sin-city-sufi).
+
+| Timestamp | Version | Clean SHA-256 Hash | Raw SHA-256 Hash | Backup File |
+|:----------|:--------|:-------------------|:-----------------|:------------|
+| 2026-05-19T21:10:28.481111 | `v1` | `b8b00980649925962fe6949483003c9fdb4bab357fd59abfe9e1b95bb5119ef5` | `d530a8ab4d7551b552d2c7910a73cb0720e004a76f1da0022c076d23c7a7dfdd` | `2026-05-19_sin-city-sufi-v1.txt` |
+
+---
+*Written and Curated by Abu Sayed*

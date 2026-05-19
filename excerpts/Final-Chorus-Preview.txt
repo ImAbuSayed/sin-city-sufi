@@ -1,0 +1,44 @@
+ਇਸ਼ਕੇ ਦਾ ਜਾਦੂ ਚੱਲਿਆ ਮੇਰੇ ਉੱਤੇ deep inside
+ਮੈਂ ਤੇਰਾ ਦੀਵਾਨਾ ਹਾਂ ਕਮਲਾ ਹੋਇਆ nowhere to hide
+ਦਿਲ ਦੀ ਧੜਕਣ ਸੁਣ ਲੈ ਮੇਰੀ ਹੁਣ pure and true
+ਮੈਂ ਚਾਹੁੰਦਾ ਹਾਂ ਤੈਨੂੰ ਆਪਣੀ ਬਣਾਉਣਾ only you
+ਨੈਣਾਂ ਦਾ ਇਸ਼ਾਰਾ ਕਰ ਦੇ ਮੈਨੂੰ just for me
+ਮੈਂ ਜੀਂਦਾ ਹਾਂ ਤੇਰੇ ਲਈ ਹਰ ਸਾਹ can't you see
+ਆਪਣੀ ਰੂਹ ਮਿਲਾ ਦੇ ਮੇਰੇ ਨਾਲ like the sea
+ਮੈਂ ਬਣਦਾ ਹਾਂ ਤੇਰਾ ਹਮੇਸ਼ਾ ਲਈ set me free
+import re
+
+with open('lyric-raw.txt', 'r', encoding='utf-8') as f:
+    text = f.read()
+
+forbidden_words = [
+    '808', 'trap', 'reggaeton', 'garage', 'BPM', 'synth', 'hi-hat', 'hi‑hat', 'bassline', 'autotune', 'reverb', 'dhol loop', 'mix/master', 'studio',
+    'rhythmic bounce', 'percussive impact', 'deep bass energy', 'crowd-response phrases', 'crowd‑response phrases', 'phonetic hooks',
+    'luxury', 'speed', 'urban', 'club', 'lavish', 'exclusive', 'VIP', 'nightclub', 'boujee', 'opulent', 'street',
+    'designer', 'penthouse', 'champagne', 'velvet rope', 'gold chains', 'diamonds', 'sleek cars', 'dhol', 'tumbi'
+]
+
+found_forbidden = []
+for word in forbidden_words:
+    if re.search(r'\b' + re.escape(word) + r'\b', text, re.IGNORECASE):
+        found_forbidden.append(word)
+
+if found_forbidden:
+    print("Found forbidden words:", found_forbidden)
+else:
+    print("No forbidden words found.")
+
+lines = text.split('\n')
+english_only_lines = []
+for i, line in enumerate(lines):
+    if line.strip() and not line.startswith('['):
+        if i >= 40 and i <= 45: # Bridge section is allowed to be all English
+            continue
+        # Check if the line is pure English (contains no Punjabi characters)
+        if not re.search(r'[\u0A00-\u0A7F]', line):
+            english_only_lines.append(f"Line {i+1}: {line}")
+
+if english_only_lines:
+    print("Found full English lines (outside Bridge):", english_only_lines)
+else:
+    print("No full English lines found (outside Bridge).")
