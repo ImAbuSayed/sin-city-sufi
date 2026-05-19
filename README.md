@@ -15,7 +15,7 @@
 | **Written On** | May 18, 2026 |
 | **Song Page** | [Open Song Page](https://imabusayed.github.io/sin-city-sufi/) |
 | **License** | [View License](./LICENSE.md) |
-| **Get License** | [Request Licensing for Sin City Sufi](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/sin-city-sufi/) |
+| **Get License** | [Commercial Licensing for Sin City Sufi](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/sin-city-sufi/) |
 | **Author** | Abu Sayed |
 | **Rights** | All Rights Reserved |
 
@@ -32,7 +32,10 @@
 
 ## 📝 Lyric Preview
 
-> [Excerpt will appear here after the final lyric is saved.]
+> ਨੈਣਾਂ ਵਿੱਚ ਨਸ਼ਾ ਤੇਰਾ ਵੱਧਦਾ ਜਾਵੇ on fire
+> ਮੈਂ ਤੱਕਦਾ ਹਾਂ ਤੈਨੂੰ ਸੋਹਣੀਏ my desire
+> ਮੇਰੇ ਦਿਲ ਦੀ ਧੜਕਣ ਤੇਜ਼ ਹੋਈ no control
+> ਨੀ ਤੂੰ ਲੁੱਟਿਆ ਏ ਮੇਰਾ ਸਾਰਾ ਚੈਨ touch my soul
 > ...
 
 [**View Full Lyrics**](./lyrics.txt) | [**View Metadata**](./manifest.json) | [**View Proofs**](./hashes.txt)
